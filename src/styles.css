@@ -3,3 +3,36 @@
 
 .test-2 {
 }
+
+.test-3 {
+  --scope-hash: d802cd; /* Collision-prevention ID */
+}
+
+.test-3__inner {
+}
+
+.test-3 > .test-3__inner > .test-3__item {
+}
+
+@media (min-width: 375px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@keyframes test-3__slide-in {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: 100px;
+  }
+}
+
+.test-4 {
+  --scope-hash: a07947; /* Collision-prevention ID */
+}
+
+.test-4__inner {
+}
