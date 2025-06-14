@@ -6,7 +6,7 @@
 
 .test-3 {
   --scope-hash: d802cd; /* Collision-prevention ID */
-  color:red;
+  color:blue;
 }
 
 .test-3__inner {
