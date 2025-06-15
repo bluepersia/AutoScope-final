@@ -1,8 +1,6 @@
 .test {
 }
 
-.test-2 {
-}
 
 .test-3 {
   --scope-hash: d80; /* Collision-prevention ID */
