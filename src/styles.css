@@ -6,7 +6,9 @@
   --scope-hash: d80; /* Collision-prevention ID */
   color: blue;
 }
-
+.test-3__sub {
+  
+}
 .test-3:first-child {
 }
 
