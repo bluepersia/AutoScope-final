@@ -1,5 +1,4 @@
-.test {
-}
+
 
 .test-2 {
 }
@@ -51,9 +50,3 @@
   }
 }
 
-.test-4 {
-  --scope-hash: a07; /* Collision-prevention ID */
-}
-
-.test-4__inner {
-}
