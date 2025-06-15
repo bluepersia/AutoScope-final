@@ -4,7 +4,7 @@
 
 .test-3 {
   --scope-hash: d80; /* Collision-prevention ID */
-  color: violet;
+  color: pink;
 }
 
 .test-3:first-child {
