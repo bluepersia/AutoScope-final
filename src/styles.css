@@ -9,7 +9,12 @@
 
 .test-3:first-child 
  { 
-  }
+  } 
+  
+.test-3__sub 
+{
+
+}
 
 .test-3__inner * {
 }
@@ -20,20 +25,16 @@
 .test-3:first-child .test-3__inner + .test-3__item * {
 }
 
-.test-3:first-child
-  > .test-3__inner:not(:last-child)
-  + .test-3__item:not(:last-child) {
+.test-3:first-child > .test-3__inner:not(:last-child) + .test-3__item:not(:last-child) {
 }
 
 @media (min-width: 375px) {
-  .inner {
+  .test-3__inner {
   }
 
-  .test > .inner > .item {
+  .test-3 > .test-3__inner > .test-3__item {
   }
-  .test-3:first-child
-    > .test-3__inner:not(:last-child)
-    + .test-3__item:not(:last-child) {
+  .test-3:first-child > .test-3__inner:not(:last-child) + .test-3__item:not(:last-child) {
   }
 }
 
@@ -52,5 +53,10 @@
 
 .test-4 {
   --scope-hash: a07; /* Collision-prevention ID */
+}
+
+.test-4__inner 
+{
+  
 }
 
