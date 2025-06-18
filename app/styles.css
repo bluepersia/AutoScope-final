@@ -66,10 +66,6 @@
   
 }
 
-.test-other {
-  --scope-hash: d80; /* Collision-prevention ID */
-  color: red;
-}
 
 
 
