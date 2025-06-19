@@ -4,6 +4,7 @@
 
 .test-7 {
   --scope-hash: d80; /* Collision-prevention ID */
+  
   color: yellow;
 }
 
