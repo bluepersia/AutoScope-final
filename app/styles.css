@@ -5,7 +5,7 @@
 .test-7 {
   --scope-hash: d80; /* Collision-prevention ID */
   
-  color: red;
+  color: green;
 }
 
 .test-7:first-child 
