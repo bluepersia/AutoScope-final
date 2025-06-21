@@ -57,6 +57,19 @@
 }
 
 
+.test-4 {
+  color:red;
+  --scope-hash: a07; /* Collision-prevention ID */
+  background-color: aqua;
+}
+
+
+
+
+.test-4__inner 
+{
+}
+
 
 
 
